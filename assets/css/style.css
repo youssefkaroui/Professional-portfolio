@@ -47,13 +47,7 @@ a {
     max-width:300px;
   
 }
-.education-img {
-    display:block;
-    
-    margin: 25 px auto;
-    max-width: 200px;
 
-}
 .about-me, .education, .work, .contact-me {
     margin-bottom: 20px;
     padding: 50px;
@@ -74,7 +68,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-.horizeon-img, .run-buddy-mg, .education-img {
+.horizeon-img, .run-buddy-mg {
     max-height: 200px;
 }
 .content {
@@ -101,4 +95,14 @@ p {
     justify-content: space-around;
     align-content: center;
 
+}
+.about-me, .education {
+    display:flex;
+    flex-wrap:wrap;
+    
+    justify-items:stretch;
+    align-self: center;
+    justify-content:space-around;
+
+    
 }
