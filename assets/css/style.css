@@ -9,7 +9,7 @@ body {
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #1e2f69;
+    background-color: #2a607c;
     color: #ffffff;
 }
 
@@ -42,7 +42,10 @@ a {
 }
 
 .horizeon-img, .run-buddy-img  {
-    display:block;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    justify-items: center;
     margin: 25px auto;
     max-width:300px;
   
@@ -106,3 +109,7 @@ p {
 
     
 }
+.run-buddy-img {
+    max-height: 700px;
+    max-width: 650px;
+} 
