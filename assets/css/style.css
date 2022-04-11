@@ -41,7 +41,7 @@ a {
     text-decoration: none;
 }
 
-.horizeon-img, .run-buddy-img  {
+.horizeon-img, .run-buddy-img, .from-the-tap-img  {
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -71,7 +71,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-.horizeon-img, .run-buddy-mg {
+.horizeon-img, .run-buddy-mg, .from-the-tap-img {
     max-height: 200px;
 }
 .content {
